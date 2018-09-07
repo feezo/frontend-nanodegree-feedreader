@@ -16,16 +16,17 @@ Whether you work in an organization that uses test-driven development or in an o
 To run this application load the index.html in a modern web browser that supports HTML5. Load the index.html in a modern web browser that supports HTML5, served from a web server. When the page opens scroll down to the bottom of the page to see the blue color Jasmine display indicating all our tests are passed. In case of test failure the jasmine display red and error handler points to where the error lies in our code.
 
 
+## Built With
+- Javascript
 
-##Built With
--Javascript
+## Dependencies
+- Jasmine
 
-##Dependencies
--Jasmine
+## Author
 
-##Author
--Hafis Jimoh
+- Hafis Jimoh
 
-##Acknowledgement
-Udacity mentor
-Slack channels
+## Acknowledgement
+
+- Udacity mentor
+- Slack channels
