@@ -81,7 +81,8 @@ describe('The Menu', () => {
            })
 
            it('define if at least one entries', () => {
-               expect($('.entry .feed')).toBeDefined()
+              let f = $('.feed').find('.entry').length;
+               expect(f).toBeGreaterThan(0);
            });
          });
 
@@ -101,7 +102,7 @@ describe('The Menu', () => {
            $('.feed').empty()
            loadFeed(0,() => {
                    entriesStart = $('.feed').find(allFeeds.url);
-                   loadFeed(1, cb => {
+                   loadFeed(1, () => {
                      entriesEnd = $('.feed').find(allFeeds.url);
                        done();
                       });
