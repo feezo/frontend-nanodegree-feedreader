@@ -80,7 +80,7 @@ describe('The Menu', () => {
              })
            })
 
-           it('define if at least one entries', () => {
+           it('define at least one entry in feed container', () => {
               let f = $('.feed').find('.entry').length;
                expect(f).toBeGreaterThan(0);
            });
